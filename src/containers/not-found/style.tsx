@@ -103,9 +103,9 @@ export const Goback = styled.div`
     color: ${themeGet('colors.textColor', '#292929')};
     transition: 0.15s ease-in-out;
     &:hover {
-      color: ${themeGet('colors.primary', '#D10068')};
+      color: ${themeGet('colors.primary', '#0d59b9')};
       ${Icon} {
-        background-color: ${themeGet('colors.primary', '#D10068')};
+        background-color: ${themeGet('colors.primary', '#0d59b9')};
       }
     }
   }

@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Person blog`,
     author: `Tyler Newman`,
-    about: `A software developer who is passionate about connecting people in cybernetic world where "Human perception is literally incarnation"`,
+    about: `A software developer who is passionate about connecting people in a cybernetic world where "Human perception is literally incarnation"`,
     description: `A Gatsby Blog`,
     siteUrl: `https://www.tylerjnewman.com`,
   },
@@ -116,7 +116,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: '', // add your MC list endpoint here
+        endpoint: 'https://tylerjnewman.us17.list-manage.com/subscribe/post?u=ba30394d6fe3cb48714cb69aa&amp;id=14429508fb',
       },
     },
     {

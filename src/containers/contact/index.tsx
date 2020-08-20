@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Formik, FormikProps, Form } from 'formik';
+import axios from "axios";
 import * as Yup from 'yup';
 import Input from '../../components/input/input';
 import Button from '../../components/button/button';
@@ -22,16 +23,36 @@ const SignupSchema = Yup.object().shape({
   message: Yup.string().required('Required'),
 });
 
+const handleServerResponse = (values: MyFormValues, { setSubmitting, setErrors, setStatus, resetForm }: any) => {
+  axios({
+    method: "post",
+    url: "https://getform.io/f/64f778fd-0294-4837-b219-0450867cac29",
+    data: values
+  })
+    .then(r => {
+      resetForm({})
+      setStatus({ success: true })
+    })
+    .catch(error => {
+      setStatus({ success: false })
+      setErrors({ submit: error.message })
+    })
+    .finally(() => {
+      setSubmitting(false)
+    });
+}
+
 const Contact: React.SFC<{}> = () => {
   return (
     <Formik
       initialValues={{ firstName: '', email: '', message: '' }}
       onSubmit={(values: MyFormValues, actions: any) => {
-        setTimeout(() => {
-          console.log({ values, actions });
-          alert(JSON.stringify(values, null, 2));
-          actions.setSubmitting(false);
-        }, 700);
+        // setTimeout(() => {
+        //   console.log({ values, actions });
+        //   alert(JSON.stringify(values, null, 2));
+        //   actions.setSubmitting(false);
+        // }, 700);
+        handleServerResponse(values, actions)
       }}
       validationSchema={SignupSchema}
       render={({

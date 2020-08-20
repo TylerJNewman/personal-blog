@@ -26,7 +26,7 @@ const FooterWrapper = styled.footer`
     font-size: ${themeGet('fontSizes.3', '15')}px;
     transition: 0.15s ease-in-out;
     &:hover {
-      color: ${themeGet('colors.primary', '#D10068')};
+      color: ${themeGet('colors.primary', '#0d59b9')};
     }
   }
 `;

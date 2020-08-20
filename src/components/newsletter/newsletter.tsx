@@ -43,28 +43,28 @@ const Newsletter: React.FunctionComponent<NewsletterProps> = ({ ...props }) => {
     <NewsletterWrapper {...props}>
       <NewsletterInnerWrapper>
         <NewsletterTitle>
-          Get The Best Of All Hands Delivered To Your Inbox
+          Get Notified of New Posts
         </NewsletterTitle>
         <NewsletterDescription>
-          Subscribe to our newsletter and stay updated.
+          Subscribe stay updated.
         </NewsletterDescription>
 
         <NewsletterInputWrapper onSubmit={handleSubmit}>
           {success ? (
             <SuccessMessage>{success} 🙂</SuccessMessage>
           ) : (
-            <>
-              <Input
-                type="email"
-                name="email"
-                placeholder="Write your email here"
-                onChange={handleChange}
-                value={email}
-                required={true}
-              />
-              <Button title="Subscribe" type="submit" />
-            </>
-          )}
+              <>
+                <Input
+                  type="email"
+                  name="email"
+                  placeholder="Write your email here"
+                  onChange={handleChange}
+                  value={email}
+                  required={true}
+                />
+                <Button title="Subscribe" type="submit" />
+              </>
+            )}
         </NewsletterInputWrapper>
         {error && (
           <ErrorMessage

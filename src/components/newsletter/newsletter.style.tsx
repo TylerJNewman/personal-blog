@@ -137,7 +137,7 @@ export const ErrorMessage = styled.div`
     color: #d8000c;
   }
   a {
-    color: #d10068;
+    color: #0d59b9;
   }
 `;
 
