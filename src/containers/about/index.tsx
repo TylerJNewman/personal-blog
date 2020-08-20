@@ -82,16 +82,10 @@ const About: React.FunctionComponent<AboutProps> = () => {
       <AboutDetails>
         <h2>Hey there, what’s up?</h2>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
+          Lorem
         </p>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
-          high-performance web & mobile application. Our main concern is
-          creating more value into the application so that can help our
-          customers to grow their business.
+          Lorem
         </p>
 
         <SocialProfiles>

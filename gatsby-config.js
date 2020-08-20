@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Person blog`,
     author: `Tyler Newman`,
-    about: `A software developer who is passionate about connecting people in world where "Human perception is literally incarnation"`,
+    about: `A software developer who is passionate about connecting people in cybernetic world where "Human perception is literally incarnation"`,
     description: `A Gatsby Blog`,
     siteUrl: `https://www.tylerjnewman.com`,
   },
@@ -96,7 +96,7 @@ module.exports = {
         short_name: `blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#0071FF`,
         display: `minimal-ui`,
         icon: `content/assets/favicon.png`,
       },
@@ -123,9 +123,9 @@ module.exports = {
       resolve: `gatsby-source-instagram`,
       //add your instagram username, access_token and id below
       options: {
-        // username: ,
-        // access_token: ,
-        // instagram_id: ,
+        username: 'tylerjnewman',
+        access_token: process.env.ACCESS_TOKEN,
+        instagram_id: process.env.INSTAGRAM_ID,
       },
     },
     {

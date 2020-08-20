@@ -14,8 +14,11 @@ const NotFoundPage = () => {
       <SEO title="404: Not Found" />
       <NotFound />
       <Footer>
-        Copyright &copy; {new Date().getFullYear()}
-        <a href="https://redq.io/"> RedQ, Inc.</a>
+        Made with Love
+        &nbsp;&nbsp;
+        💙
+        &nbsp;&nbsp;
+        Tyler Newman
       </Footer>
     </>
   );
