@@ -1,7 +1,7 @@
 ---
 title: Production Problems
 date: '2020-08-25T22:12:03.284Z'
-tags: ['technical', 'ssl', 'netlify', 'dns', 'ssl', 'ssh', 'headless', 'wordpress', 'graphql', 'gatsby', 'aws', 'bitnami', 'certificate']
+tags: [ 'dns', 'ssl', 'headless', 'wordpress', 'graphql', 'gatsby', 'aws', 'certificate']
 cover: './wires.jpg'
 ---
 
