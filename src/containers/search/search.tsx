@@ -97,8 +97,8 @@ function Search() {
         {queryResults.length == 0 && searchQuery !== '' ? (
           <NoResult>No result found</NoResult>
         ) : (
-          ''
-        )}
+            ''
+          )}
 
         {queryResults.length !== 0 && (
           <Scrollbars

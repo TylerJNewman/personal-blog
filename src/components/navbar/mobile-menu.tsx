@@ -15,7 +15,7 @@ import { FiX } from 'react-icons/fi';
 
 type MobileMenuProps = {
   items: any;
-  logo: string;
+  logo: any;
 };
 
 const MobileMenu: React.FunctionComponent<MobileMenuProps> = ({
@@ -51,7 +51,7 @@ const MobileMenu: React.FunctionComponent<MobileMenuProps> = ({
           <DrawerHead>
             <DrawerLogo>
               <Link to="/">
-                <img src={logo} alt="logo" />
+                {logo}
               </Link>
             </DrawerLogo>
             <DrawerClose onClick={toggleDrawer}>

@@ -29,16 +29,13 @@ export const NavbarWrapper = styled.div`
 export const Logo = styled.div`
   margin-right: 50px;
   flex-shrink: 0;
+  width:  44px;
   @media (max-width: 990px) {
     margin: 0 25px;
+    width: 40px;
   }
   @media (max-width: 575px) {
-    max-width: 90px;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+    width: 36px;
   }
 `;
 

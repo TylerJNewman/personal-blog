@@ -1,7 +1,7 @@
 ---
 title: This is markdown unity test!
-date: '2019-04-22'
-tags: ['markdown', 'test', 'unity']
+date: '2020-08-18'
+tags: ['mindset', 'lifehack', 'productivity', 'tips', 'pragmatics']
 cover: './preview-1.jpg'
 ---
 

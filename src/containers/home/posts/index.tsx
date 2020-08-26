@@ -84,8 +84,8 @@ const Posts: React.FunctionComponent<PostsProps> = () => {
           totalPage={TotalPage}
         />
       ) : (
-        ''
-      )}
+          ''
+        )}
     </BlogPostsWrapper>
   );
 };

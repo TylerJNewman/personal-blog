@@ -14,7 +14,8 @@ import HeaderWrapper, {
   SearchCloseButton,
   NavSearchFromWrapper,
 } from './navbar.style';
-import LogoImage from '../../images/logo.png';
+// import LogoImage from '../../images/logo.png';
+import LogoSVG from '../../../content/assets/logo.inline.svg'
 
 type NavbarProps = {
   className?: string;
@@ -59,11 +60,11 @@ const Navbar: React.FunctionComponent<NavbarProps> = ({
     <HeaderWrapper className={addAllClasses.join(' ')} {...props}>
       <NavbarWrapper className="navbar">
         <DrawerProvider>
-          <MobileMenu items={MenuItems} logo={LogoImage} />
+          <MobileMenu items={MenuItems} logo={LogoSVG} />
         </DrawerProvider>
         <Logo>
           <Link to="/">
-            <img src={LogoImage} alt="logo" />
+            <LogoSVG />
           </Link>
         </Logo>
         <MenuWrapper>
