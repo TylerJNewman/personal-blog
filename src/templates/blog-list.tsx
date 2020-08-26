@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { graphql } from 'gatsby';
-import PostCard from '../components/post-card/post-card';
-import Pagination from '../components/pagination/pagination';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import { BlogPostsWrapper } from './templates.style';
+import * as React from "react";
+import { graphql } from "gatsby";
+import PostCard from "../components/post-card/post-card";
+import Pagination from "../components/pagination/pagination";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { BlogPostsWrapper } from "./templates.style";
 
 const BlogList = (props: any) => {
   const { data } = props;
@@ -13,7 +13,7 @@ const BlogList = (props: any) => {
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
   const prevPage =
-    currentPage - 1 === 1 ? '/page/1' : `/page/${(currentPage - 1).toString()}`;
+    currentPage - 1 === 1 ? "/page/1" : `/page/${(currentPage - 1).toString()}`;
   const nextPage = `/page/${(currentPage + 1).toString()}`;
   const PrevLink = !isFirst && prevPage;
   const NextLink = !isLast && nextPage;
