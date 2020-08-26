@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Person blog`,
     author: `Tyler Newman`,
-    about: `A software developer who is passionate about connecting people in a cybernetic world where "Human perception is literally incarnation"`,
+    about: `"Human perception is literally incarnation" ~ Marshall Mcluhan`,
     description: `A Gatsby Blog`,
     siteUrl: `https://www.tylerjnewman.com`,
   },

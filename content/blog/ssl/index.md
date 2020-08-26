@@ -78,6 +78,7 @@ sudo /opt/bitnami/bncert-tool
 ```
 
 3. Enter domains you want to configure (in my case it was a subdomain)
+
 ```bash
 bitnami@:~$ sudo /opt/bitnami/bncert-tool
 
@@ -97,6 +98,7 @@ Please provide a valid space-separated list of domains for which you wish to con
 
 Domain list []: aws.example.com
 ```
+
 4. Answer prompt for redirection of http requests
 ```bash
 I want only SSL/HTTPS access for my domains, so I choose the redirection.
