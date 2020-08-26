@@ -1,4 +1,4 @@
-require('dotenv').config({
+require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
@@ -114,16 +114,17 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     {
-      resolve: 'gatsby-plugin-mailchimp',
+      resolve: "gatsby-plugin-mailchimp",
       options: {
-        endpoint: 'https://tylerjnewman.us17.list-manage.com/subscribe/post?u=ba30394d6fe3cb48714cb69aa&amp;id=14429508fb',
+        endpoint:
+          "https://tylerjnewman.us17.list-manage.com/subscribe/post?u=ba30394d6fe3cb48714cb69aa&amp;id=14429508fb",
       },
     },
     {
       resolve: `gatsby-source-instagram`,
       //add your instagram username, access_token and id below
       options: {
-        username: 'tylerjnewman',
+        username: "tylerjnewman",
         access_token: process.env.ACCESS_TOKEN,
         instagram_id: process.env.INSTAGRAM_ID,
       },
@@ -144,12 +145,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-react-svg',
+      resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /\.inline\.svg$/
-        }
-      }
-    }
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
   ],
 };
