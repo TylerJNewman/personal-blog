@@ -66,18 +66,18 @@ Luckily, bitnami has a configuration tool to configure HTTPS certificates for th
 **[Bitnami docs](https://docs.bitnami.com/aws/how-to/understand-bncert/)**
 
 
-1. Open a terminal session
+###1. Open a terminal session
 ```bash
 ssh -i ~/.ssh/keypair.pem bitnami@ec2-x-xxx-xx-xxx.compute-1.amazonaws.com
 ```
 
-2. Run [Bitnami HTTPS Configuration Tool](https://docs.bitnami.com/aws/how-to/understand-bncert/)
+###2. Run [Bitnami HTTPS Configuration Tool](https://docs.bitnami.com/aws/how-to/understand-bncert/)
 
 ```bash
 sudo /opt/bitnami/bncert-tool
 ```
 
-3. Enter domains you want to configure (in my case it was a subdomain)
+###3. Enter domains you want to configure (in my case it was a subdomain)
 
 ```bash
 bitnami@:~$ sudo /opt/bitnami/bncert-tool
@@ -99,10 +99,9 @@ Please provide a valid space-separated list of domains for which you wish to con
 Domain list []: aws.example.com
 ```
 
-4. Answer prompt for redirection of http requests
-```bash
+###4. Answer prompt for redirection of http requests
 I want only SSL/HTTPS access for my domains, so I choose the redirection.
-
+```bash
 Enable HTTP to HTTPS redirection [Y/n]: Y
 ```
 Thats it!   Good luck in your own SSL adventures :)
