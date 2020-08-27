@@ -121,6 +121,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-instagram-all`,
+      options: {
+        access_token: process.env.ACCESS_TOKEN,
+      },
+    },
+    {
       resolve: `gatsby-source-instagram`,
       //add your instagram username, access_token and id below
       options: {
