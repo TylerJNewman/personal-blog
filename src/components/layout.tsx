@@ -25,7 +25,7 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ children }) => {
 
         {children}
 
-        <InstagramShowcase />
+        {/* <InstagramShowcase /> */}
         <Newsletter />
         <Footer>
           Made with Love
