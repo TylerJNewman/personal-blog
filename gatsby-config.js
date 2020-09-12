@@ -120,12 +120,12 @@ module.exports = {
           "https://tylerjnewman.us17.list-manage.com/subscribe/post?u=ba30394d6fe3cb48714cb69aa&amp;id=14429508fb",
       },
     },
-    {
-      resolve: `gatsby-source-instagram-all`,
-      options: {
-        access_token: process.env.ACCESS_TOKEN,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-instagram-all`,
+    //   options: {
+    //     access_token: process.env.ACCESS_TOKEN,
+    //   },
+    // },
     {
       resolve: `gatsby-source-instagram`,
       //add your instagram username, access_token and id below
