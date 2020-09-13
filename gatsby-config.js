@@ -126,16 +126,16 @@ module.exports = {
     //     access_token: process.env.ACCESS_TOKEN,
     //   },
     // },
-    {
-      resolve: `gatsby-source-instagram`,
-      //add your instagram username, access_token and id below
-      options: {
-        // username:  `272633942`,
-        username: "tylerjnewman",
-        access_token: process.env.ACCESS_TOKEN,
-        instagram_id: process.env.INSTAGRAM_ID,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   //add your instagram username, access_token and id below
+    //   options: {
+    //     // username:  `272633942`,
+    //     username: "tylerjnewman",
+    //     access_token: process.env.ACCESS_TOKEN,
+    //     instagram_id: process.env.INSTAGRAM_ID,
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
