@@ -1,5 +1,5 @@
-import styled from 'styled-components';
-import { themeGet } from '@styled-system/theme-get';
+import styled from 'styled-components'
+import {themeGet} from '@styled-system/theme-get'
 
 export const AboutWrapper = styled.div`
   position: relative;
@@ -10,7 +10,7 @@ export const AboutWrapper = styled.div`
   @media (max-width: 575px) {
     padding: 60px 25px 0 25px;
   }
-`;
+`
 
 export const AboutPageTitle = styled.div`
   margin-bottom: 45px;
@@ -31,7 +31,7 @@ export const AboutPageTitle = styled.div`
       margin-bottom: 10px;
     }
   }
-`;
+`
 
 export const AboutImage = styled.div`
   margin-bottom: 90px;
@@ -41,7 +41,7 @@ export const AboutImage = styled.div`
   @media (max-width: 767px) {
     margin-bottom: 40px;
   }
-`;
+`
 
 export const AboutDetails = styled.div`
   width: 870px;
@@ -61,7 +61,7 @@ export const AboutDetails = styled.div`
       margin-bottom: 25px;
     }
   }
-`;
+`
 export const SocialProfiles = styled.div`
   margin-top: 60px;
   position: relative;
@@ -80,4 +80,4 @@ export const SocialProfiles = styled.div`
       margin-bottom: 40px;
     }
   }
-`;
+`

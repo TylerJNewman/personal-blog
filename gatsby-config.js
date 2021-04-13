@@ -1,6 +1,6 @@
-require("dotenv").config({
+require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-});
+})
 
 module.exports = {
   siteMetadata: {
@@ -92,8 +92,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Personal Blog`,
-        short_name: `blog`,
+        name: `Tyler Newman Personal Website`,
+        short_name: `personal_website`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#0071FF`,
@@ -114,10 +114,10 @@ module.exports = {
       resolve: `gatsby-plugin-lodash`,
     },
     {
-      resolve: "gatsby-plugin-mailchimp",
+      resolve: 'gatsby-plugin-mailchimp',
       options: {
         endpoint:
-          "https://tylerjnewman.us17.list-manage.com/subscribe/post?u=ba30394d6fe3cb48714cb69aa&amp;id=14429508fb",
+          'https://tylerjnewman.us17.list-manage.com/subscribe/post?u=ba30394d6fe3cb48714cb69aa&amp;id=14429508fb',
       },
     },
     // {
@@ -152,7 +152,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-react-svg",
+      resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
           include: /\.inline\.svg$/,
@@ -160,4 +160,4 @@ module.exports = {
       },
     },
   ],
-};
+}

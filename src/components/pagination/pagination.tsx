@@ -1,20 +1,20 @@
-import * as React from 'react';
-import { Link } from 'gatsby';
-import { IoMdArrowRoundBack, IoMdArrowRoundForward } from 'react-icons/io';
+import * as React from 'react'
+import {Link} from 'gatsby'
+import {IoMdArrowRoundBack, IoMdArrowRoundForward} from 'react-icons/io'
 import {
   PaginationWrapper,
   PrevPage,
   NextPage,
   PageNumber,
-} from './pagination.style';
+} from './pagination.style'
 
 type PaginationProps = {
-  prevLink?: string | undefined | null | boolean;
-  nextLink?: string | undefined | null | boolean;
-  currentPage: string;
-  totalPage: string;
-  className?: string;
-};
+  prevLink?: string | undefined | null | boolean
+  nextLink?: string | undefined | null | boolean
+  currentPage: string
+  totalPage: string
+  className?: string
+}
 
 const Pagination: React.FunctionComponent<PaginationProps> = ({
   prevLink,
@@ -34,7 +34,7 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({
         )}
       </PrevPage>
 
-      <PageNumber>{`Page ${currentPage} Of ${totalPage}`}</PageNumber>
+      <PageNumber>{`Page ${currentPage} of ${totalPage}`}</PageNumber>
 
       <NextPage>
         {nextLink && (
@@ -44,7 +44,7 @@ const Pagination: React.FunctionComponent<PaginationProps> = ({
         )}
       </NextPage>
     </PaginationWrapper>
-  );
-};
+  )
+}
 
-export default Pagination;
+export default Pagination

@@ -1,21 +1,22 @@
-import * as React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
-import SocialProfile from '../../components/social-profile/social-profile';
+import * as React from 'react'
+import {useStaticQuery, graphql} from 'gatsby'
+import Image from 'gatsby-image'
+import SocialProfile from '../../components/social-profile/social-profile'
+import resume from '../../../content/profile.json'
 import {
   IoLogoFacebook,
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoLinkedin,
   IoLogoGithub,
-} from 'react-icons/io';
+} from 'react-icons/io'
 import {
   AboutWrapper,
   AboutImage,
   AboutPageTitle,
   AboutDetails,
   SocialProfiles,
-} from './style';
+} from './style'
 
 const SocialLinks = [
   {
@@ -43,14 +44,46 @@ const SocialLinks = [
     url: 'https://www.linkedin.com/tylerthecreator',
     tooltip: 'Linked In',
   },
-];
+]
 
-interface AboutProps { }
+interface ExperienceProps {
+  data: any
+}
+
+const Experience: React.FunctionComponent<ExperienceProps> = ({data}) => {
+  return (
+    <>
+      <h2>Experience</h2>
+      {data &&
+        data.map((item, i) => (
+          <article className="my-5" key={`${item.company}-${i}`}>
+            <h3 className="item-header">{item.role}</h3>
+            <h4 className="item-sub">
+              {item.company} | {item.start} - {item.end || 'PRESENT'}
+            </h4>
+            <p className="py-6">{item.description}</p>
+          </article>
+        ))}
+      {/* 
+      <h3 className="title">Senior Web Developer</h3>
+      <h4 className="subtitle">Intelitec Solutions | March 2013 - Present</h4>
+      <p>
+        Bring to the table win-win survival strategies to ensure proactive
+        domination. At the end of the day, going forward, a new normal that has
+        evolved from generation X is on the runway heading towards a streamlined
+        cloud solution. User generated content in real-time will have multiple
+        touchpoints for offshoring.
+      </p> */}
+    </>
+  )
+}
+
+interface AboutProps {}
 
 const About: React.FunctionComponent<AboutProps> = () => {
   const Data = useStaticQuery(graphql`
     query {
-      avatar: file(absolutePath: { regex: "/about.jpg/" }) {
+      avatar: file(absolutePath: {regex: "/about.jpg/"}) {
         childImageSharp {
           fluid(maxWidth: 1770, quality: 90) {
             ...GatsbyImageSharpFluid
@@ -64,36 +97,31 @@ const About: React.FunctionComponent<AboutProps> = () => {
         }
       }
     }
-  `);
+  `)
 
   return (
     <AboutWrapper>
       <AboutPageTitle>
         <h2>About Me</h2>
         <p>
-          “In the land of the blind, the one-eyed man is a hallucinating idiot...for he sees what no one else does: things that, to everyone else, are not there.”
+          Finance/Accounting → Film/TV → Startup(Front End Developer) →
+          Photography → Startups(Front End Developer)
         </p>
       </AboutPageTitle>
 
-      <AboutImage>
+      {/* <AboutImage>
         <Image fluid={Data.avatar.childImageSharp.fluid} alt="author" />
-      </AboutImage>
+      </AboutImage> */}
 
       <AboutDetails>
-        <h2>Hey there, what’s up?</h2>
-        <p>
-          Lorem
-        </p>
-        <p>
-          Lorem
-        </p>
+        <Experience data={resume.experience} />
 
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />
         </SocialProfiles>
       </AboutDetails>
     </AboutWrapper>
-  );
-};
+  )
+}
 
-export default About;
+export default About

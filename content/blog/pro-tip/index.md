@@ -1,17 +1,28 @@
 ---
-title: Running in circles
+title: Breaking the loop
 date: '2019-03-05T22:12:03.284Z'
-tags: ['pro tip', 'distilled wisdom', 'lifehack', 'note to self']
+tags: ['protip', 'advice', 'lifehack', 'notetoself', 'productivity']
 cover: './walks.jpg'
 ---
 
-If ever find yourself working on something way too long.  Perhaps you have tried something over and over again. Maybe you are building an ikea dresser drawer and cannot, for the life of you, figure out what is going wrong...
+If ever find yourself working on something way too long. Perhaps you have tried
+something over and over again. Maybe you are building an ikea dresser drawer and
+cannot, for the life of you, figure out what is going wrong...
 
-##Pro tip:
-Find that person who is doing something unrelated and ask them for a moment of their time to explain the issue.  Often times, the new mode of thinking will trigger an insight into the problem.  Also, by breaking down your steps to explain the issue to someone you will most likely look closer at something you were previously glossing over.
+## A Method For Breaking The Loop:
 
-In programming world, this hack also works really well when creating issues on a github repository.  You get the added benefit of learning from others as well as providing a place for fellow developers to find an answer to the same problem.  
+Find that person who is doing something unrelated and ask them for a moment of
+their time and if they are willing to allow you to explain your problem. Often
+times, as you are breaking down the problem in order to communicate, this
+process will trigger an insight. By breaking down your thoughts into steps and
+giving context to your issue, you are likely look closer at something you were
+previously glossing over.
 
-So go ahead and break down your steps and put an issue on github, or get perhaps find a community on a slack channel or spectrum.chat
+For developing, this hack also works really well when creating issues on a
+github repository. You are forced to give context to your issue as well as break
+down the steps to recreate it. By creating a discussion on a public forum, you
+get the added benefit of learning from others as well as providing a place for
+fellow developers to find an answer to the same problem.
 
-Also, long walks always seem to be a good idea...
+When a friend, colleague, or community is not suitable for your timeframe or
+situation, long walks and breaks are always an option...
