@@ -13,6 +13,9 @@ export const AboutWrapper = styled.div`
 `
 
 export const AboutPageTitle = styled.div`
+  width: 870px;
+  max-width: 100%;
+  margin: 0 auto;
   margin-bottom: 45px;
   @media (max-width: 767px) {
     margin-bottom: 30px;
@@ -60,6 +63,21 @@ export const AboutDetails = styled.div`
       font-size: 18px;
       margin-bottom: 25px;
     }
+    border: 0 solid;
+    border-left-width: 4px;
+    border-color: #292929;
+    padding-left: 0.75rem;
+  }
+
+  .item-header {
+    margin-bottom: 8px;
+  }
+
+  .item-sub {
+    color: grey;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.35px;
   }
 `
 export const SocialProfiles = styled.div`

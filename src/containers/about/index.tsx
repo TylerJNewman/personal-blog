@@ -103,10 +103,7 @@ const About: React.FunctionComponent<AboutProps> = () => {
     <AboutWrapper>
       <AboutPageTitle>
         <h2>About Me</h2>
-        <p>
-          Finance/Accounting → Film/TV → Startup(Front End Developer) →
-          Photography → Startups(Front End Developer)
-        </p>
+        <p>Finance → Film → Startup → Photography → Startups</p>
       </AboutPageTitle>
 
       {/* <AboutImage>
