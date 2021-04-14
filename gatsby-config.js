@@ -136,19 +136,15 @@ module.exports = {
     //     instagram_id: process.env.INSTAGRAM_ID,
     //   },
     // },
+    // {
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Poppins`,
-            variants: [`300`, `400`, `500`, `600`, `700`],
-          },
-          {
-            family: `Fira Sans`,
-            variants: [`100`, `300`, `400`, `500`, `600`, `700`],
-          },
+          `Poppins\:300,400,500,600,700`,
+          `Fira Sans\:100,300,400,500,600,700`, // you can also specify font weights and styles
         ],
+        display: 'swap',
       },
     },
     {
