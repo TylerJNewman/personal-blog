@@ -1,6 +1,6 @@
 import * as React from 'react'
 
-interface EducationProps {
+interface ExperienceProps {
   data: Item[]
 }
 
@@ -13,10 +13,10 @@ interface Item {
   skills: any
 }
 
-const Education: React.FunctionComponent<EducationProps> = ({data}) => {
+const Experience: React.FunctionComponent<ExperienceProps> = ({data}) => {
   return (
     <>
-      <h2>Education</h2>
+      <h2>Experience</h2>
       {data?.map(
         ({company, role, start, end, description, skills}: Item, i: number) => (
           <article key={`${company}-${i}`}>
@@ -33,4 +33,4 @@ const Education: React.FunctionComponent<EducationProps> = ({data}) => {
   )
 }
 
-export default Education
+export default Experience

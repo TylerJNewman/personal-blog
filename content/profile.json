@@ -1,211 +1,24 @@
 {
-  "skills": [
-    {
-      "title": "General",
-      "type": "percent",
-      "subskills": [
-        {
-          "name": "Architecture",
-          "percent": 89
-        },
-        {
-          "name": "Mobile/Web App Development",
-          "percent": 95
-        },
-        {
-          "name": "Product Management",
-          "percent": 85
-        },
-        {
-          "name": "Project Management",
-          "percent": 92
-        },
-        {
-          "name": "Game Development",
-          "percent": 70
-        },
-        {
-          "name": "Blockchain",
-          "percent": 85
-        },
-        {
-          "name": "Dev Ops",
-          "percent": 81
-        },
-        {
-          "name": "Backend Development",
-          "percent": 93
-        },
-        {
-          "name": "Data Science",
-          "percent": 65
-        },
-        {
-          "name": "Artificial Intelligence",
-          "percent": 70
-        },
-        {
-          "name": "UX",
-          "percent": 80
-        }
-      ]
-    },
-    {
-      "title": "Languages",
-      "type": "percent",
-      "subskills": [
-        {
-          "name": "Javascript",
-          "percent": 96
-        },
-        {
-          "name": "Java",
-          "percent": 82
-        },
-        {
-          "name": "Python",
-          "percent": 85
-        },
-        {
-          "name": "C#",
-          "percent": 74
-        },
-        {
-          "name": "Solidity",
-          "percent": 85
-        },
-        {
-          "name": "Dart",
-          "percent": 75
-        },
-        {
-          "name": "Go",
-          "percent": 60
-        }
-      ]
-    },
-    {
-      "title": "Frameworks",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "React"
-        },
-        {
-          "name": "Flutter"
-        },
-        {
-          "name": "React Native"
-        },
-        {
-          "name": "Vue"
-        },
-        {
-          "name": "Spring"
-        },
-        {
-          "name": "Angular"
-        },
-        {
-          "name": "Electron"
-        },
-        {
-          "name": "Node"
-        },
-        {
-          "name": "Flusk"
-        },
-        {
-          "name": "Express"
-        },
-        {
-          "name": "Koa"
-        },
-        {
-          "name": "Gatsby"
-        },
-        {
-          "name": "Apollo"
-        },
-        {
-          "name": "Django"
-        },
-        {
-          "name": "Loopback"
-        },
-        {
-          "name": "Next"
-        },
-        {
-          "name": "Amplify"
-        },
-        {
-          "name": "Pixi"
-        },
-        {
-          "name": "Phaser"
-        },
-        {
-          "name": "Feathers"
-        }
-      ]
-    },
-    {
-      "title": "Software",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Docker"
-        },
-        {
-          "name": "Jira"
-        },
-        {
-          "name": "Unity"
-        },
-        {
-          "name": "Godot"
-        },
-        {
-          "name": "Google Analytics"
-        }
-      ]
-    },
-    {
-      "title": "Databases",
-      "type": "tag",
-      "subskills": [
-        {
-          "name": "Postgresql"
-        },
-        {
-          "name": "Mongodb"
-        },
-        {
-          "name": "Parse"
-        },
-        {
-          "name": "Firebase"
-        },
-        {
-          "name": "Elastic Search"
-        }
-      ]
-    }
-  ],
+  "skills": "Project Management, UX, Javascript, React, Node, Express, Gatsby, Apollo, Next, Typescript, GraphQL, Python, Webpack, Electron, MongoDB, Postgres",
   "summary": "Highly focused technologist with a multidisciplinary skill set honed over 15+ years in the IT industry. I strive to build great products and can take an initial idea, tackle it from multiple angles and take it from something great to something incredible. With 15+ years of experience in various industries, I help tech startups from idea phase to high volumes. I design and build scalable solutions, implement internal processes that fit your organization, build teams that produce results.",
   "education": [
     {
-      "institution": "Middle East Technical University, Turkey",
-      "degree": "Geological Engineering",
-      "start": "2013",
-      "end": "2006"
+      "institution": "University of California, Los Angeles",
+      "degree": "Economics",
+      "start": "2006",
+      "end": "2010"
     },
     {
-      "institution": "Gazi University, Turkey",
-      "degree": "Industrial Engineering",
-      "start": "2002",
-      "end": "2006"
+      "institution": "App Academy",
+      "degree": "Full Stack Web Development",
+      "start": "2015",
+      "end": "2015"
+    },
+    {
+      "institution": "Udacity",
+      "degree": "AI Programming with Python Nanodegree, CS",
+      "start": "2020",
+      "end": "2020"
     }
   ],
   "experience": [
@@ -213,7 +26,7 @@
       "role": "Front End Developer",
       "company": "Clair Global, PA",
       "description": "During my contract I built Virtual Live Audience (VLA), a browser-based video platform to virtually experience a live performance, interact with other fans and provide real-time feedback for the performer.",
-      "skills": "Electron, React, Typescript, Mobx, WebRTC, Web Audio API",
+      "skills": "Electron, React, Typescript, Mobx, WebRTC, Web Audio, GraphQL",
       "start": "12/2021",
       "end": "04/2020"
     },
@@ -242,44 +55,12 @@
       "end": "07/2016"
     }
   ],
-  "social": [
-    {
-      "service": "youtube",
-      "url": "https://www.youtube.com/channel/UCczRc31u_YXNiSpYKxQU_Ug"
-    },
-    {
-      "service": "linkedin",
-      "url": "https://www.linkedin.com/in/barancezayirli"
-    },
-    {
-      "service": "twitter",
-      "url": "https://twitter.com/barancezayirli"
-    },
-    {
-      "service": "angellist",
-      "url": "https://angel.co/baran-cezayirli"
-    },
-    {
-      "service": "github",
-      "url": "https://github.com/barancezayirli"
-    },
-    {
-      "service": "facebook",
-      "url": "https://www.facebook.com/barancezayirli"
-    },
-    {
-      "service": "instagram",
-      "url": "https://www.instagram.com/barancezayirli"
-    }
-  ],
-  "role": "Technologist",
   "projects": [
     {
-      "name": "Gatsby resume starter",
-      "company": "Open source",
-      "description": "Gatsby resume tailwind is a free starter template with  Netlify CMS implementation. It is easy to customize the design with thanks to tailwind theming capabilities. It uses git as a backend and can be deployed to any static hosting service like Netlify, firebase hosting or Github pages.",
-      "link": "https://github.com/barancezayirli/gatsby-resume-tailwind"
+      "name": "Image Classifier",
+      "company": "Udacity Course Project",
+      "description": "Developed an AI application that can classify an image based on a pre-trained machine learning model",
+      "link": "https://github.com/TylerJNewman/image-classifier"
     }
-  ],
-  "fullname": "Baran Cezayirli"
+  ]
 }
