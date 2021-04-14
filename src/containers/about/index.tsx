@@ -2,6 +2,7 @@ import * as React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import Image from 'gatsby-image'
 import SocialProfile from '../../components/social-profile/social-profile'
+import Experience from '../../components/experience/experience'
 import resume from '../../../content/profile.json'
 import {
   IoLogoFacebook,
@@ -45,39 +46,6 @@ const SocialLinks = [
     tooltip: 'Linked In',
   },
 ]
-
-interface ExperienceProps {
-  data: any
-}
-
-const Experience: React.FunctionComponent<ExperienceProps> = ({data}) => {
-  return (
-    <>
-      <h2>Experience</h2>
-      {data &&
-        data.map((item, i) => (
-          <article className="my-5" key={`${item.company}-${i}`}>
-            <h3 className="item-header">{item.role}</h3>
-            <h4 className="item-sub">
-              {item.company} | {item.start} - {item.end || 'PRESENT'}
-            </h4>
-            <p className="py-6">{item.description}</p>
-            <p className="item-skills">{item.skills}</p>
-          </article>
-        ))}
-      {/* 
-      <h3 className="title">Senior Web Developer</h3>
-      <h4 className="subtitle">Intelitec Solutions | March 2013 - Present</h4>
-      <p>
-        Bring to the table win-win survival strategies to ensure proactive
-        domination. At the end of the day, going forward, a new normal that has
-        evolved from generation X is on the runway heading towards a streamlined
-        cloud solution. User generated content in real-time will have multiple
-        touchpoints for offshoring.
-      </p> */}
-    </>
-  )
-}
 
 interface AboutProps {}
 
