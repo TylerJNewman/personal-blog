@@ -69,6 +69,16 @@ export const AboutDetails = styled.div`
     padding-left: 0.75rem;
   }
 
+  .section {
+    margin-bottom: 64px;
+    @media (max-width: 990px) {
+      margin-bottom: 48px;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 32px;
+    }
+  }
+
   .item-header {
     margin-bottom: 8px;
   }

@@ -15,7 +15,7 @@ interface Item {
 
 const Experience: React.FunctionComponent<ExperienceProps> = ({data}) => {
   return (
-    <>
+    <div className="section">
       <h2>Experience</h2>
       {data?.map(
         ({company, role, start, end, description, skills}: Item, i: number) => (
@@ -29,7 +29,7 @@ const Experience: React.FunctionComponent<ExperienceProps> = ({data}) => {
           </article>
         ),
       )}
-    </>
+    </div>
   )
 }
 

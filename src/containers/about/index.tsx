@@ -1,6 +1,7 @@
 import * as React from 'react'
 import {useStaticQuery, graphql} from 'gatsby'
 import Image from 'gatsby-image'
+import Skills from '../../components/skills/skills'
 import SocialProfile from '../../components/social-profile/social-profile'
 import Experience from '../../components/experience/experience'
 import resume from '../../../content/profile.json'
@@ -80,8 +81,8 @@ const About: React.FunctionComponent<AboutProps> = () => {
       </AboutImage> */}
 
       <AboutDetails>
+        <Skills data={resume.skills} />
         <Experience data={resume.experience} />
-
         <SocialProfiles>
           <SocialProfile items={SocialLinks} />
         </SocialProfiles>

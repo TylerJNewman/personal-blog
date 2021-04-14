@@ -15,7 +15,7 @@ interface Item {
 
 const Education: React.FunctionComponent<EducationProps> = ({data}) => {
   return (
-    <>
+    <div className="section">
       <h2>Education</h2>
       {data?.map(
         ({company, role, start, end, description, skills}: Item, i: number) => (
@@ -29,7 +29,7 @@ const Education: React.FunctionComponent<EducationProps> = ({data}) => {
           </article>
         ),
       )}
-    </>
+    </div>
   )
 }
 
