@@ -213,7 +213,7 @@
       "role": "Front End Developer",
       "company": "Clair Global, PA",
       "description": "During my contract I built Virtual Live Audience (VLA), a browser-based video platform to virtually experience a live performance, interact with other fans and provide real-time feedback for the performer.",
-      "skills": "Skills Used: Electron, React, Typescript, Mobx, WebRTC, Web Audio API",
+      "skills": "Electron, React, Typescript, Mobx, WebRTC, Web Audio API",
       "start": "12/2021",
       "end": "04/2020"
     },
@@ -221,7 +221,7 @@
       "role": "Front End Lead",
       "company": "Fundomate Inc, CA",
       "description": "I implemented non-trivial SPA with React, designed for scalability. I was responsible for running agile management for the client side team.",
-      "skills": "Skills Used: Typescript, Mobx, Nextjs, CSS modules, React-testing-library",
+      "skills": "Typescript, Mobx, Nextjs, CSS modules, React-testing-library",
       "start": "1/2020",
       "end": "03/2020"
     },
@@ -229,7 +229,7 @@
       "role": "Front End Developer - UI/UX Designer",
       "company": "Hanzo.ai, CA",
       "description": "Hanzo.ai is a blockchain venture studio. I designed and built blockchain applications for enterprises and startups including a crypto trading platform that would allow for fractional ownership in film and television, ESX.",
-      "skills": "Skills Used: React, JavaScript, Mobx, HTML, CSS, MaterialUI",
+      "skills": "React, JavaScript, Mobx, HTML, CSS, MaterialUI",
       "start": "03/2019",
       "end": "1/2020"
     },
@@ -237,7 +237,7 @@
       "role": "Front End Developer",
       "company": "Runtriz Inc, Los Angeles, CA ",
       "description": "I built frontend for mobile apps for Caesars Palace, Radisson and SLS hotels.",
-      "skills": "Skills Used: JavaScript, Ember, HTML, CSS, Nightwatch, Material CSS",
+      "skills": "JavaScript, Ember, HTML, CSS, Nightwatch, Material CSS",
       "start": "01/2016",
       "end": "07/2016"
     }

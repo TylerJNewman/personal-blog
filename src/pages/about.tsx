@@ -9,7 +9,6 @@ const AboutPage: React.FunctionComponent<AboutPageProps> = () => {
   return (
     <Layout>
       <SEO title="About Me" description="Resume & Interest" />
-
       <About />
     </Layout>
   )

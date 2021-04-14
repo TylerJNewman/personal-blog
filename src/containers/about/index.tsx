@@ -62,6 +62,7 @@ const Experience: React.FunctionComponent<ExperienceProps> = ({data}) => {
               {item.company} | {item.start} - {item.end || 'PRESENT'}
             </h4>
             <p className="py-6">{item.description}</p>
+            <p className="item-skills">{item.skills}</p>
           </article>
         ))}
       {/* 
