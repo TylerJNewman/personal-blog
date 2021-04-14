@@ -55,13 +55,13 @@ export const AboutDetails = styled.div`
     font-size: 21px;
     font-weight: 500;
     color: ${themeGet('colors.textColor', '#292929')};
-    margin-bottom: 40px;
+    margin-bottom: 24px;
     @media (max-width: 990px) {
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
     @media (max-width: 767px) {
       font-size: 18px;
-      margin-bottom: 25px;
+      margin-bottom: 16px;
     }
     border: 0 solid;
     border-left-width: 4px;
