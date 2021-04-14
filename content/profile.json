@@ -218,7 +218,7 @@
       "end": "04/2020"
     },
     {
-      "role": "Full Stack Tech Lead",
+      "role": "Front End Lead",
       "company": "Fundomate Inc, CA",
       "description": "I implemented non-trivial SPA with React, designed for scalability. I was responsible for running agile management for the client side team.",
       "skills": "Skills Used: Typescript, Mobx, Nextjs, CSS modules, React-testing-library",
@@ -234,7 +234,7 @@
       "end": "1/2020"
     },
     {
-      "role": "Full Stack Developer",
+      "role": "Front End Developer",
       "company": "Runtriz Inc, Los Angeles, CA ",
       "description": "I built frontend for mobile apps for Caesars Palace, Radisson and SLS hotels.",
       "skills": "Skills Used: JavaScript, Ember, HTML, CSS, Nightwatch, Material CSS",
