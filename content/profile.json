@@ -62,5 +62,28 @@
       "description": "Developed an AI application that can classify an image based on a pre-trained machine learning model",
       "link": "https://github.com/TylerJNewman/image-classifier"
     }
+  ],
+  "people": [
+    "Marshall Mcluhan",
+    "Jorge Luis Borges",
+    "William Butler Yeats",
+    "Carl Jung",
+    "Claude Shannon",
+    "Terrance Mckenna",
+    "Haruki Murakami",
+    "John Coltrane"
+  ],
+  "subjects": [
+    "Decentralization",
+    "Category Theory",
+    "Systems Theory",
+    "Communication Theory",
+    "General Semantics",
+    "Chaos Theory",
+    "General Semantics",
+    "Neuroscience",
+    "Psychology",
+    "Cults/Human Potential Movement",
+    "Cats & Dogs"
   ]
 }

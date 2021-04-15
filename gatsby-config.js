@@ -4,7 +4,7 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `Tyler Newman`,
+    title: `Personal Website`,
     author: `Tyler Newman`,
     about: `"Human perception is literally incarnation" ~ Marshall Mcluhan`,
     description: `A Gatsby Blog`,
